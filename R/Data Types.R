@@ -7,7 +7,7 @@ print(class(b))
 c <-"My name is R"          # Here string are called character
 print(class(c))
 
-e <- 42L
+e <- 42L                    # Here number with "L" is Integer
 print(class(e))
 
 f <- FALSE
