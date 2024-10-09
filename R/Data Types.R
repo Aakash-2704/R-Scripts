@@ -9,3 +9,6 @@ print(class(c))
 
 e <- 42L
 print(class(e))
+
+f <- FALSE
+print(class(f))
