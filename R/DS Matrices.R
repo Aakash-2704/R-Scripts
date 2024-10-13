@@ -7,3 +7,7 @@ print(thismatrix)
 
 thismatrix <- matrix(c("apple", "banana","carrot","cherry","grape","pineapple","pear","melon","fig"), nrow = 3, ncol = 3)
 print(thismatrix[c(1,2),])
+
+thismatrix <- matrix(c("apple","banana","cherry","pineapple","grape", "pineapple", "pear", "melon", "fig"), nrow = 3, ncol = 3)
+newmatrix <- rbind(thismatrix, c("strawberry", "blueberry", "raspberry"))
+print(newmatrix)
